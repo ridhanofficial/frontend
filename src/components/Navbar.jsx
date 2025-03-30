@@ -35,6 +35,9 @@ const Navbar = () => {
                 Medicines
               </Link>
               <AlertBadge />
+              <Link to="/sales" className="text-gray-700 hover:text-blue-600">
+                Sales
+              </Link>
               <Link to="/climate-analytics" className="text-gray-700 hover:text-blue-600">
                 Climate Analytics
               </Link>
@@ -102,6 +105,9 @@ const Navbar = () => {
               Medicines
             </Link>
             <AlertBadge />
+            <Link to="/sales" className="block text-gray-700 hover:text-blue-600">
+              Sales
+            </Link>
             <Link to="/climate-analytics" className="block text-gray-700 hover:text-blue-600">
               Climate Analytics
             </Link>

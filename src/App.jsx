@@ -13,6 +13,7 @@ import MedicineForm from './components/MedicineForm';
 import Reports from './components/Reports';
 import ServerStatusChecker from './components/ServerStatusChecker';
 import ClimateAnalytics from './components/ClimateAnalytics';
+import SalesManager from './components/SalesManager';
 
 function App() {
   return (
@@ -75,6 +76,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <ClimateAnalytics />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path="/sales"
+              element={
+                <PrivateRoute>
+                  <SalesManager />
                 </PrivateRoute>
               }
             />
